@@ -1,0 +1,57 @@
+db.courses.insertOne({
+"demographicDetails": [{
+"city": false,
+"state": false,
+"dob": false,
+"gender": false,
+"rollNumber": false,
+"identificationNumber": false,
+"passinggYear": false,
+"coreBranch": false,
+"collegeName": false,
+"identityverification": false
+}]
+"testMode": "proctored",
+"accessMode": "free",
+"currencyCode": "INR",
+"title": "Scripted Proctored Assessment",   // name of the test
+"titleLower': scripted proctored test",
+"description": "This is a proctored test",
+"inviteeEmails": null,
+"inviteePhones": [],
+"classRooms":[],
+"studentEmails": [],
+"instructions": "<p> This is instruction of the Assessent </p>\n",
+"isMarksLevel": true,
+"enableMarks': true,
+"randomQuestions": true,
+"randomizeAnswerOptions": false,
+"sectionJump": true,
+"sectiontimeLimit": false,
+"minusMark": 0,
+"plusMark": 1,
+"notes": "<p> these are notes</p>\n",
+"countryCode": "IN",
+"attemptAllowed": 5,
+"status": "published",
+"expiresOn": null,
+"startDate": newDate(),
+"startTimeAllowance": null,
+"requireAttendance": false,
+"totalJooinedStudent": 0,
+"rating": 0,
+"totalQuestion": 5,
+"totalAttempt": 0,
+"isShowresult": false,
+"isShowAttempt": false,
+
+
+
+
+
+
+
+
+
+
+})
